@@ -1,5 +1,6 @@
 #OUTPUT IMAGES ARE ATTACHED AS A WORD DOCUMENT WITH THEIR QUESTIONS.#
 
+-------------------------------------------------------------------------------------------------------
 Qs 1: Retrieve all customers who have placed an order in the last 30 days.
 
 •	select * from orders where order_date >= curdate() - interval 30 day;
